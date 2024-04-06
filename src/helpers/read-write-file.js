@@ -22,7 +22,11 @@ class File {
 
             return res.end(`<p>path: ${url}</p>`);
         } catch (error) {
-            console.log(error)
+            const data = await fs.readFile('./src/html/error.html');
+            const errorMessage = url === error ? `<p>path: ${url}</p>` : `<p>path: does not exist ${url} <p/>`
+            res.write(data);
+            
+            return res.end(errorMessage);
         }
     };
 };

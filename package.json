@@ -1,0 +1,25 @@
+{
+  "name": "basic-informational-site",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "basic information site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crn0/Basic-informational-Site.git"
+  },
+  "author": "Crn0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crn0/Basic-informational-Site/issues"
+  },
+  "homepage": "https://github.com/Crn0/Basic-informational-Site#readme",
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "3.2.5"
+  }
+}

@@ -1,5 +1,5 @@
 import express from 'express';
-import router from './src/router/router.js';
+import router from './router/router.js';
 
 const app = express();
 const port = 8080
